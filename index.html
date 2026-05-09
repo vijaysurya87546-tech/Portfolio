@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <!-- Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dark-mode">
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#" class="logo">Portfolio<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h3>Hello, I'm</h3>
+                <h1 class="name">Vijay B</h1>
+                <h2 class="typing-text">And I'm a <span id="typing"></span><span class="cursor">|</span></h2>
+                <p>I am a motivated and detail-oriented Information Technology student with hands-on experience in modern web technologies and AI.</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn btn-primary">Hire Me</a>
+                    <a href="https://docs.google.com/document/d/1xYiZt1TZ2-XJAh22Wb3jRBbwB-fuGDvv/edit?usp=drivesdk&ouid=105480028578497377847&rtpof=true&sd=true" target="_blank" class="btn btn-outline">Download Resume</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/vijay-b-6b942137a" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/vijaysurya87546-tech" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <!-- Profile picture removed -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section reveal">
+        <div class="container">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-content glass">
+                <div class="about-text">
+                    <h3>Personal Introduction</h3>
+                    <p>Motivated and detail-oriented Information Technology student with hands-on experience in Python, Java, C++, and full-stack web development. Proficient in OOP and software development fundamentals. Passionate about AI, machine learning, and modern web technologies.</p>
+                    
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <h4><i class="fas fa-graduation-cap"></i> Education</h4>
+                            <p>B.Tech in Information Technology at Dhanalakshmi Srinivasan Engineering College (Autonomous).</p>
+                        </div>
+                        <div class="info-item">
+                            <h4><i class="fas fa-trophy"></i> Achievement</h4>
+                            <p>Maintaining a strong CGPA of 8.72/10.0.</p>
+                        </div>
+                        <div class="info-item">
+                            <h4><i class="fas fa-bullseye"></i> Career Objective</h4>
+                            <p>Seeking an internship or entry-level software engineering role to apply technical skills in a professional environment.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section reveal">
+        <div class="container">
+            <h2 class="section-title">My <span>Skills</span></h2>
+            <div class="skills-grid">
+                <!-- Skill Card -->
+                <div class="skill-card glass">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h3>Programming</h3>
+                    <p style="margin-top: 10px; font-size: 0.95rem;">Python, Java, C++</p>
+                </div>
+                <!-- Skill Card -->
+                <div class="skill-card glass">
+                    <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Web Tech</h3>
+                    <p style="margin-top: 10px; font-size: 0.95rem;">HTML5, CSS3, JavaScript, Responsive UI</p>
+                </div>
+                <!-- Skill Card -->
+                <div class="skill-card glass">
+                    <div class="skill-icon"><i class="fas fa-tools"></i></div>
+                    <h3>Tools</h3>
+                    <p style="margin-top: 10px; font-size: 0.95rem;">VS Code, Git, GitHub</p>
+                </div>
+                <!-- Skill Card -->
+                <div class="skill-card glass">
+                    <div class="skill-icon"><i class="fas fa-robot"></i></div>
+                    <h3>AI Tools</h3>
+                    <p style="margin-top: 10px; font-size: 0.95rem;">ChatGPT, Claude AI Expertise</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section reveal">
+        <div class="container">
+            <h2 class="section-title">My <span>Projects</span></h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop" alt="Digital Tourism Portal">
+                    </div>
+                    <div class="project-info">
+                        <h3>Kanyakumari Digital Tourism Portal</h3>
+                        <p>A full-stack web application providing verified travel information and secure online booking services for Kanyakumari tourism destinations. Built with a fully responsive UI and secure booking modules.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-sm btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn btn-sm btn-primary"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card glass">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=800&auto=format&fit=crop" alt="Project 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Task Manager App</h3>
+                        <p>A drag-and-drop Kanban style task manager built with vanilla JavaScript and local storage.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-sm btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn btn-sm btn-primary"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card glass">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?q=80&w=800&auto=format&fit=crop" alt="Project 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>Portfolio Website</h3>
+                        <p>A modern, responsive personal portfolio website with dark mode and smooth animations.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-sm btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn btn-sm btn-primary"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications section reveal">
+        <div class="container">
+            <h2 class="section-title">My <span>Certifications</span></h2>
+            <div class="skills-grid">
+                <!-- Cert 1 -->
+                <div class="skill-card glass" style="text-align: left; padding: 25px;">
+                    <h3 style="font-size: 1.1rem; margin-bottom: 10px;"><i class="fas fa-certificate" style="color: var(--primary-color);"></i> Programming in Java</h3>
+                    <p style="font-size: 0.95rem; color: var(--text-color);">NPTEL (IIT), Government of India</p>
+                </div>
+                <!-- Cert 2 -->
+                <div class="skill-card glass" style="text-align: left; padding: 25px;">
+                    <h3 style="font-size: 1.1rem; margin-bottom: 10px;"><i class="fas fa-certificate" style="color: var(--primary-color);"></i> Full Stack Development</h3>
+                    <p style="font-size: 0.95rem; color: var(--text-color);">NoviTech</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section reveal">
+        <div class="container text-center glass resume-card">
+            <h2 class="section-title">My <span>Resume</span></h2>
+            <p>Want to know more about my experience and skills? View or download my complete resume below.</p>
+            <a href="https://docs.google.com/document/d/1xYiZt1TZ2-XJAh22Wb3jRBbwB-fuGDvv/edit?usp=drivesdk&ouid=105480028578497377847&rtpof=true&sd=true" target="_blank" class="btn btn-primary btn-large"><i class="fas fa-download"></i> Download Resume</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section reveal">
+        <div class="container">
+            <h2 class="section-title">Contact <span>Me</span></h2>
+            <div class="contact-wrapper">
+                <div class="contact-info glass">
+                    <h3>Get In Touch</h3>
+                    <p>Feel free to drop a message. I'll get back to you as soon as possible.</p>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>vijaysurya87546@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+91 87546 86349</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Tamil Nadu, India</p>
+                    </div>
+                    <div class="social-links mt-2">
+                        <a href="https://linkedin.com/in/vijay-b-6b942137a" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/vijaysurya87546-tech" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form glass">
+                    <div class="input-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <p>&copy; 2026 Personal Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" id="back-to-top" class="back-to-top" aria-label="Back to Top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
