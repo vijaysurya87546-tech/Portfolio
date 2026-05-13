@@ -22,12 +22,5 @@
   "homepage": "https://github.com/vijaysurya87546-tech/Portfolio#readme",
   "devDependencies": {
     "vite": "^8.0.12"
-  },
-  "dependencies": {
-    "@react-three/fiber": "^9.6.1",
-    "@vitejs/plugin-react": "^6.0.1",
-    "react": "^19.2.6",
-    "react-dom": "^19.2.6",
-    "three": "^0.184.0"
   }
 }
