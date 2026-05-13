@@ -1,0 +1,33 @@
+{
+  "name": "new-folder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vijaysurya87546-tech/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vijaysurya87546-tech/Portfolio/issues"
+  },
+  "homepage": "https://github.com/vijaysurya87546-tech/Portfolio#readme",
+  "devDependencies": {
+    "vite": "^8.0.12"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^9.6.1",
+    "@vitejs/plugin-react": "^6.0.1",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "three": "^0.184.0"
+  }
+}
